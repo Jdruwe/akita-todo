@@ -9,8 +9,8 @@
       "projectType": "application",
       "prefix": "app",
       "schematics": {
-        "@schematics/angular:component": {
-          "style": "sass"
+        "akita-schematics:component": {
+          "style": "scss"
         }
       },
       "architect": {
@@ -136,5 +136,8 @@
       }
     }
   },
-  "defaultProject": "akita-todo"
+  "defaultProject": "akita-todo",
+  "cli": {
+    "defaultCollection": "akita-schematics"
+  }
 }
